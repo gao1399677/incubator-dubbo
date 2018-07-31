@@ -36,4 +36,7 @@
     <!-- declare the service interface to be exported -->
     <dubbo:service interface="org.apache.dubbo.demo.DemoService" ref="demoService"/>
 
+    <dubbo:provider filter="dubboContextFilter" />
+    <!--<dubbo:reference id="hello" interface="org.apache.dubbo.demo.DemoService" proxy="jdk" retries="0" filter="myFilter"/>-->
+
 </beans>

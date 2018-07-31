@@ -1,0 +1,1 @@
+dubboContextFilter=org.apache.dubbo.demo.provider.MyFilter
